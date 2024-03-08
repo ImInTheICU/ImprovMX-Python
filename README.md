@@ -75,4 +75,5 @@ improvMX.delete_alias(
 ```
 
 <h2 align="center">🛡️ License</h2>
-<p>This project is licensed under the [MIT License](https://github.com/ImInTheICU/ImprovMX-Python/blob/main/LICENSE).</p>
+
+<p>This project is licensed under the <a href="https://github.com/ImInTheICU/ImprovMX-Python/blob/main/LICENSE">MIT License</a>.</p>
