@@ -70,8 +70,7 @@ improvMX.delete_alias(
 ```
 ## Showcase
 
-![Create & Delete aliases](https://raw.githubusercontent.com/ImInTheICU/ImprovMX-Python/main/demo/test_create_and_delete_alias.mp4)
-
+https://github.com/ImInTheICU/ImprovMX-Python/assets/111275373/5e2bb483-86f0-462c-ab7e-70a43da305c4
 
 ## Example Code
 
