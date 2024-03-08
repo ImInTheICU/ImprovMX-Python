@@ -1,5 +1,6 @@
 <h1 align="center" id="title">🐍 ImprovMX-Python</h1>
 <p align="center"><img src="https://socialify.git.ci/ImInTheICU/ImprovMX-Python/image?description=1&font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Solid&pulls=1&stargazers=1&theme=Dark" alt="ImprovMX-Python" width="640" height="320" /></p>
+<p align="center">What's ImprovMX? Incase you don't know ImprovMX is a email free/paid forwarding service.</p>
 
 <h2 align="center">🚀 Showcase</h2>
 <p align="center">https://github.com/ImInTheICU/ImprovMX-Python/assets/111275373/3755e2d0-6c3d-4e60-ba15-f4032060d3e8</p>
