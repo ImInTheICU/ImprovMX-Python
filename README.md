@@ -12,5 +12,22 @@
 *   Delete domain alias
 *   Requests sessions
 
+<h2 align="center">✂🔨 Usage</h2>
+<h3 align="center">
+  -> Create domain alias
+  <code>
+from ... import ImprovMX # ... being the file with the ImprovMX class in it.
+
+improvMX = ImprovMX(api_user="<api_user>", api_key="<api_key>") # <api_user> being the api user (default: api) # <api_key> being the api key (get one: https://app.improvmx.com/api)
+
+improvMX.create_alias(
+    domain="example.com", # The domain for which to create the alias. (must be added at https://app.improvmx.com/)
+    alias="test", # The alias or list of aliases to be created. (in this example we're added a single alias)
+    forward="test@gmail.com", # The email address the alias forwards to.
+    bulk=False # Indicates whether to create aliases in bulk. Defaults to False.
+)
+  </code>
+</h3>
+
 <h2 align="center">🛡️ License</h2>
 <p>This project is licensed under the [MIT License](https://github.com/ImInTheICU/ImprovMX-Python/blob/main/LICENSE).</p>
