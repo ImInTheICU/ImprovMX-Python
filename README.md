@@ -13,9 +13,9 @@
 *   Requests sessions
 
 <h2 align="center">✂🔨 Usage</h2>
-<h3 align="center">
+<h3 align="left">
   -> Create domain alias
-  <code>
+  ```python
 from ... import ImprovMX # ... being the file with the ImprovMX class in it.
 
 improvMX = ImprovMX(api_user="<api_user>", api_key="<api_key>") # <api_user> being the api user (default: api) # <api_key> being the api key (get one: https://app.improvmx.com/api)
@@ -26,7 +26,7 @@ improvMX.create_alias(
     forward="test@gmail.com", # The email address the alias forwards to.
     bulk=False # Indicates whether to create aliases in bulk. Defaults to False.
 )
-  </code>
+  ```
 </h3>
 
 <h2 align="center">🛡️ License</h2>
