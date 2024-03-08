@@ -1,4 +1,4 @@
-<h1 align="center" id="title">🐍 NameIt</h1>
+<h1 align="center" id="title">🐍 ImprovMX-Python</h1>
 <p align="center"><img src="https://socialify.git.ci/ImInTheICU/ImprovMX-Python/image?description=1&font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Solid&pulls=1&stargazers=1&theme=Dark" alt="ImprovMX-Python" width="640" height="320" /></p>
 
 <h2 align="center">🚀 Showcase</h2>
