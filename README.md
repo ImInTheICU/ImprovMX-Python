@@ -8,7 +8,8 @@ ImprovMX Python is a wrapper around ImprovMX's public API built in Python3.11.
 - Bulk create domain alias
 - Edit domain alias
 - Delete domain alias
-- Session alias
+- Request sessions
+  
 ## Usage/Examples
 
 ### Create domain alias
