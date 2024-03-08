@@ -1,119 +1,16 @@
-# ImprovMX Python
+<h1 align="center" id="title">🐍 NameIt</h1>
+<p align="center"><img src="https://socialify.git.ci/ImInTheICU/ImprovMX-Python/image?description=1&font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Solid&pulls=1&stargazers=1&theme=Dark" alt="ImprovMX-Python" width="640" height="320" /></p>
 
-ImprovMX Python is a wrapper around ImprovMX's public API built in Python3.11.
+<h2 align="center">🚀 Showcase</h2>
+<p align="center">https://github.com/ImInTheICU/ImprovMX-Python/assets/111275373/3755e2d0-6c3d-4e60-ba15-f4032060d3e8</p>
 
-## Features
+<h2 align="center">🧐 Features</h2>
 
-- Create domain alias
-- Bulk create domain alias
-- Edit domain alias
-- Delete domain alias
-- Request sessions
-  
-## Usage/Examples
+*   Create domain alias
+*   Bulk create domain alias
+*   Edit domain alias
+*   Delete domain alias
+*   Requests sessions
 
-### Create domain alias
-```python
-from ... import ImprovMX # ... being the file with the ImprovMX class in it.
-
-improvMX = ImprovMX(api_user="<api_user>", api_key="<api_key>") # <api_user> being the api user (default: api) # <api_key> being the api key (get one: https://app.improvmx.com/api)
-
-improvMX.create_alias(
-    domain="example.com", # The domain for which to create the alias. (must be added at https://app.improvmx.com/)
-    alias="test", # The alias or list of aliases to be created. (in this example we're added a single alias)
-    forward="test@gmail.com", # The email address the alias forwards to.
-    bulk=False # Indicates whether to create aliases in bulk. Defaults to False.
-)
-```
-
-### Bulk create domain aliases
-```python
-from ... import ImprovMX # ... being the file with the ImprovMX class in it.
-
-improvMX = ImprovMX(api_user="<api_user>", api_key="<api_key>") # <api_user> being the api user (default: api) # <api_key> being the api key (get one: https://app.improvmx.com/api)
-
-improvMX.create_alias(
-    domain="example.com", # The domain for which to create the alias. (must be added at https://app.improvmx.com/)
-    alias=[ # The alias or list of aliases to be created. (in this example we're added a single alias)
-        {"alias": "testalias1", "forward": "test1@gmail.com"}, 
-        {"alias": "testalias2", "forward": "test2@gmail.com"},
-        {"alias": "testalias3", "forward": "test3@gmail.com"},
-    ],
-    bulk=True, # Indicates whether to create aliases in bulk. Defaults to False.
-    bulkBehavior="update" # The behavior when creating aliases in bulk. Can be "add" or "update". Defaults to None.
-)
-```
-
-### Edit domain alias
-```python
-from ... import ImprovMX # ... being the file with the ImprovMX class in it.
-
-improvMX = ImprovMX(api_user="<api_user>", api_key="<api_key>") # <api_user> being the api user (default: api) # <api_key> being the api key (get one: https://app.improvmx.com/api)
-
-improvMX.edit_alias(
-    domain="example.com", # The domain for which the alias belongs.
-    alias="test", # The existing alias to be edited.
-    forward="newexample@test.com" # The new email address the edited alias forwards to.
-)
-```
-
-### Delete domain alias
-```python
-from ... import ImprovMX # ... being the file with the ImprovMX class in it.
-
-improvMX = ImprovMX(api_user="<api_user>", api_key="<api_key>") # <api_user> being the api user (default: api) # <api_key> being the api key (get one: https://app.improvmx.com/api)
-
-improvMX.delete_alias(
-    domain="example.com", # The domain from which to delete the alias.
-    alias="test", # The existing alias to be deleted.
-)
-```
-## Showcase
-
-https://github.com/ImInTheICU/ImprovMX-Python/assets/111275373/5e2bb483-86f0-462c-ab7e-70a43da305c4
-
-## Example Code
-
-```python
-import time
-from ... import ImprovMX
-
-improvMX = ImprovMX(api_user="<api_user>", api_key="<api_key>")
-
-print("list_aliases() ALIASES -> ", improvMX.list_aliases(domain="nootnoot.dev"))
-
-time.sleep(1.5)
-
-print("create_alias() CREATE -> ", improvMX.create_alias(domain="nootnoot.dev", alias="test", forward="new_api_user@proton.me", bulk=False))
-
-time.sleep(1.5)
-
-print("create_alias() CREATE BULK -> ", improvMX.create_alias(domain="nootnoot.dev", alias=[{"alias": "bulktest1", "forward": "new_api_user@proton.me"}, {"alias": "bulktest2", "forward": "new_api_user@proton.me"}], forward="new_api_user@proton.me", bulk=True, bulkBehavior="update"))
-
-time.sleep(1.5)
-
-print("create_alias() EDIT -> ", improvMX.edit_alias(domain="nootnoot.dev", alias="test", forward="newer_api_user@proton.me"))
-
-time.sleep(1.5)
-
-print("create_alias() DELETE -> ", improvMX.delete_alias(domain="nootnoot.dev", alias="test"))
-
-time.sleep(1.5)
-
-print("create_alias() DELETE -> ", improvMX.delete_alias(domain="nootnoot.dev", alias="bulktest1"))
-
-time.sleep(1.5)
-
-print("create_alias() DELETE -> ", improvMX.delete_alias(domain="nootnoot.dev", alias="bulktest2"))
-```
-
-
-## Authors
-
-- [Christopher](https://www.github.com/ImInTheICU)
-
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
+<h2 align="center">🛡️ License</h2>
+<p>This project is licensed under the [MIT License](https://github.com/ImInTheICU/ImprovMX-Python/blob/main/LICENSE).</p>
