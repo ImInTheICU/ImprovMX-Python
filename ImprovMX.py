@@ -178,7 +178,7 @@ class ImprovMX:
             dict: A dictionary containing the response from the API.
         """
 
-        # Chekcs
+        # Checks
         if not isinstance(domain, str):
             raise ValueError("Domain must be a string.")
         if not isinstance(alias, str):
